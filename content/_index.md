@@ -1,6 +1,6 @@
 ---
 date: '2025-11-24T02:52:36+01:00'
-draft: true
+draft: false
 title: "Enzo Menegazzi"
 layout: "profile-and-content"
 menu: ""
