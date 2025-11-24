@@ -82,8 +82,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://elevendusks.com/" \
-            --environment production \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
