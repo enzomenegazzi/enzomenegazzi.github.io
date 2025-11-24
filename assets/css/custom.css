@@ -1,0 +1,49 @@
+/* video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* default font size */
+html {
+  font-size: 12pt;
+}
+
+/* main background color (in dark mode) */
+.dark, :root:not(.light) {
+    background-color: #09090B; 
+}
+
+/* hovering buttons color */
+a:hover {
+    color: #EC003F !important; /* Example: OrangeRed color for links */
+}
+
+/* hovering texts color */
+::selection {
+    background-color: #EC003F;
+    color: #FFFFFF;
+}
+
+/* pages buttons color */
+nav a:hover span, 
+nav a:hover {
+    color: #f3f4f6 !important; 
+}
+
+/* home button color */
+.header a.active,
+.header a[aria-current="page"] {
+    color: #f3f4f6 !important;
+}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+  {{ with .Site.Params.homepage }} 
+    {{ partial "profile.html" . }}  {{ end }}
+
+  <div class="container max-w-6xl mx-auto py-10">
+    <div class="content">
+        {{ .Content }} </div>
+  </div>
+{{ end }}
