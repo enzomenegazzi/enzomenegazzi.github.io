@@ -9,6 +9,9 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 0
 
+assetDir = "assets"
+module = { imports = [ { path = "github.com/jpanther/congo/v2" } ] }
+
 [pagination]
   pagerSize = 10
 
