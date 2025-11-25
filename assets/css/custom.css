@@ -60,18 +60,14 @@ body {
 
 
 
-/* 1. Target the button's primary fixed container */
-.header .fixed.bottom-4.right-4, /* Targeting common container classes */
-[aria-label="Scroll to top"] { /* Targeting the accessible label attribute */
-    background-color: var(--color-primary-500) !important;
+/* Targets the link that is titled "Scroll to top" (the button itself) */
+a[title="Scroll to top"] {
+    /* Set the background to your custom Rose/Red accent color */
+    background-color: var(--color-primary-500) !important; 
+    
+    /* Ensure the arrow icon inside is white */
+    color: var(--color-neutral) !important; 
 }
-
-/* 2. Target the button anchor tag itself (for color) */
-.header a[title="Scroll to top"] {
-    background-color: var(--color-primary-500) !important;
-    color: var(--color-neutral) !important; /* Keep the arrow icon white */
-}
-
 
 
 
