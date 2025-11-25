@@ -65,8 +65,8 @@ a[title="Scroll to top"]:focus {
 }
 
 /* remove the weird black outline around scroll to top button */
-.rounded-full {
-    border-radius: 0px;
+a[title="Scroll to top"] {
+  border-radius: 0px !important; 
 }
 
 /* home button color */
