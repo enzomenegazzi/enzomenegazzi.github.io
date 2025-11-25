@@ -59,14 +59,18 @@ body {
 }
 
 
+/* --- Definitive Fix for Scroll-to-Top Button Background --- */
 
-/* Targets the link that is titled "Scroll to top" (the button itself) */
+/* Target the link with the 'Scroll to top' title attribute */
 a[title="Scroll to top"] {
-    /* Set the background to your custom Rose/Red accent color */
+    /* Set the background to your custom Rose/Red accent color variable */
     background-color: var(--color-primary-500) !important; 
     
-    /* Ensure the arrow icon inside is white */
+    /* Ensure the arrow icon inside (which is the foreground color) is white/neutral */
     color: var(--color-neutral) !important; 
+    
+    /* Ensure the border and any shadows also use the accent color, if present */
+    border-color: var(--color-primary-500) !important;
 }
 
 
