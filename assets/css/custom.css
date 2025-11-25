@@ -59,9 +59,20 @@ body {
 }
 
 
-.dark\:bg-neutral-800\/50:is(.dark *) {
+
+/* 1. Target the button's primary fixed container */
+.header .fixed.bottom-4.right-4, /* Targeting common container classes */
+[aria-label="Scroll to top"] { /* Targeting the accessible label attribute */
     background-color: var(--color-primary-500) !important;
 }
+
+/* 2. Target the button anchor tag itself (for color) */
+.header a[title="Scroll to top"] {
+    background-color: var(--color-primary-500) !important;
+    color: var(--color-neutral) !important; /* Keep the arrow icon white */
+}
+
+
 
 
 /* home button color */
