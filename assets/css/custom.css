@@ -44,25 +44,31 @@ nav a:hover {
 /* 1. Target the text color on hover */
 .header a:hover, 
 .header a:focus {
-    /* Set the text color to the neutral color for visibility */
-    color: var(--color-neutral-900) !important;
+    /* Use the text color that matches your dark background for neutral look */
+    color: var(--color-neutral) !important; 
 }
 
-/* 2. Target the active/current page link */
-.header a.active, 
+/* Ensure the active link also remains neutral */
+.header a.active,
 .header a[aria-current="page"] {
-    /* Force the active link text color to neutral white/light gray */
-    color: #f3f4f6 !important; 
-    text-decoration-color: #f3f4f6 !important;
+    color: var(--color-neutral) !important;
 }
 
-/* 3. Aggressively reset the decoration (underline) color */
-.header a:hover {
-    text-decoration-color: var(--color-neutral-900) !important;
+body {
+    background-color: #09090B !important; 
 }
 
 
-
+/* Fix 3: Target the scroll-to-top button background */
+/* Assuming the button is linked to a class that defines its background */
+.scroll-to-top, .scroll-to-top-button { 
+    /* Set the background to your custom primary color (Rose 600) or a neutral color */
+    background-color: var(--color-primary-500) !important; 
+}
+/* If the above doesn't work, target the default Tailwind BG class */
+.bg-primary-500 {
+    background-color: var(--color-primary-500) !important; 
+}
 
 
 /* home button color */
