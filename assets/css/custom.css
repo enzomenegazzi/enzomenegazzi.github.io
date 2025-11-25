@@ -27,7 +27,7 @@ html {
 
 /* hovering buttons color */
 a:hover {
-    color: #EC003F !important; /* Example: OrangeRed color for links */
+    color: #EC003F !important;
 }
 
 /* hovering texts color */
@@ -37,10 +37,33 @@ a:hover {
 }
 
 /* pages buttons color */
-nav a:hover span, 
+/*nav a:hover span, 
 nav a:hover {
     color: #f3f4f6 !important; 
+}*/
+/* 1. Target the text color on hover */
+.header a:hover, 
+.header a:focus {
+    /* Set the text color to the neutral color for visibility */
+    color: var(--color-neutral-900) !important;
 }
+
+/* 2. Target the active/current page link */
+.header a.active, 
+.header a[aria-current="page"] {
+    /* Force the active link text color to neutral white/light gray */
+    color: #f3f4f6 !important; 
+    text-decoration-color: #f3f4f6 !important;
+}
+
+/* 3. Aggressively reset the decoration (underline) color */
+.header a:hover {
+    text-decoration-color: var(--color-neutral-900) !important;
+}
+
+
+
+
 
 /* home button color */
 .header a.active,
