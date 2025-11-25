@@ -59,15 +59,8 @@ body {
 }
 
 
-/* Fix 3: Target the scroll-to-top button background */
-/* Assuming the button is linked to a class that defines its background */
-.scroll-to-top, .scroll-to-top-button { 
-    /* Set the background to your custom primary color (Rose 600) or a neutral color */
-    background-color: var(--color-primary-500) !important; 
-}
-/* If the above doesn't work, target the default Tailwind BG class */
-.bg-primary-500 {
-    background-color: var(--color-primary-500) !important; 
+.dark\:bg-neutral-800\/50:is(.dark *) {
+    background-color: var(--color-primary-500) !important;
 }
 
 
