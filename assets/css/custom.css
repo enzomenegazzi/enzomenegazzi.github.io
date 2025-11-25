@@ -25,10 +25,10 @@ html {
     background-color: #09090B; 
 }
 
+/* body background color */
 body {
     background-color: #09090B !important; 
 }
-
 
 /* hovering texts color */
 ::selection {
@@ -36,10 +36,19 @@ body {
     color: #FFFFFF;
 }
 
-.decoration-primary-500 {
-    text-decoration-color: rgb(76 71 87);
+/* color of social buttons */
+.flex-wrap.text-neutral-400 a:hover,
+.dark\:text-neutral-500 a:hover {
+    /* Set the text color to your primary Rose/Red accent color */
+    color: rgb(var(--color-primary-500)) !important;
 }
 
+/* color of page links underlines */
+.decoration-primary-500 {
+    text-decoration-color: rgb(var(--color-primary-500)) !important;
+}
+
+/* modifications to scroll to top button*/
 a[title="Scroll to top"] {
     background-color: #09090B !important; 
     border-color: #09090B !important;
@@ -55,6 +64,7 @@ a[title="Scroll to top"]:focus {
     border-color: #09090B !important;
 }
 
+/* remove the weird black outline around scroll to top button */
 .rounded-full {
     border-radius: 0px;
 }
