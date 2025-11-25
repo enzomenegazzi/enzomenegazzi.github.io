@@ -28,6 +28,7 @@ html {
 /* body background color */
 body {
     background-color: #09090B !important; 
+    overflow-y: scroll;
 }
 
 /* hovering texts color */

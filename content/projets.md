@@ -1,11 +1,10 @@
 ---
 date: '2025-11-24T02:52:36+01:00'
 draft: false
-title: "Home"
-layout: "profile-and-content"
-menu: ""
-params:
-  layout: "profile"
+title: "Projects"
+layout: "simple"
+menu: main
+weight: 20
 ---
 
 <div style="padding:56.25% 0 0 0;position:relative;">

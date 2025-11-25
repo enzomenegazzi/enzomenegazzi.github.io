@@ -3,12 +3,12 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Home"
+title = "Enzo Menegazzi"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "2 January 2006"
-
+  headerTitle = "test"
   # mainSections = ["section1", "section2"]
   # description = ""
 
@@ -65,3 +65,4 @@ title = "Home"
   #   { youtube = "https://youtube.com/username" },
   #   { xing = "https://xing.com/profile/username" },
    ]
+
