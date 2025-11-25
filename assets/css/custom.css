@@ -25,10 +25,10 @@ html {
     background-color: #09090B; 
 }
 
-/* hovering buttons color */
-a:hover {
-    color: #EC003F !important;
+body {
+    background-color: #09090B !important; 
 }
+
 
 /* hovering texts color */
 ::selection {
@@ -36,42 +36,17 @@ a:hover {
     color: #FFFFFF;
 }
 
-/* pages buttons color */
-/*nav a:hover span, 
-nav a:hover {
-    color: #f3f4f6 !important; 
-}*/
-/* 1. Target the text color on hover */
-.header a:hover, 
-.header a:focus {
-    /* Use the text color that matches your dark background for neutral look */
-    color: var(--color-neutral) !important; 
+.decoration-primary-500 {
+    text-decoration-color: rgb(76 71 87);
 }
-
-/* Ensure the active link also remains neutral */
-.header a.active,
-.header a[aria-current="page"] {
-    color: var(--color-neutral) !important;
-}
-
-/*body {
-    background-color: #09090B !important; 
-}*/
-
 
 a[title="Scroll to top"] {
-    /* Set background to the Rose accent color */
     background-color: #09090B !important; 
     border-color: #09090B !important;
-    
-    /* NEW: Force 100% opacity to remove the pixelated effect */
     opacity: 1 !important; 
-    
-    /* Ensure the icon color inside is white */
     color: var(--color-neutral-900) !important; 
 }
 
-/* Ensure the hover state also maintains 100% opacity and the right color */
 a[title="Scroll to top"]:hover,
 a[title="Scroll to top"]:focus {
     background-color: #09090B  !important;
@@ -80,7 +55,9 @@ a[title="Scroll to top"]:focus {
     border-color: #09090B !important;
 }
 
-
+.rounded-full {
+    border-radius: 0px;
+}
 
 /* home button color */
 .header a.active,
