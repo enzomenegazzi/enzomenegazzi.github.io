@@ -54,8 +54,30 @@ nav a:hover {
     color: var(--color-neutral) !important;
 }
 
-body {
+/*body {
     background-color: #09090B !important; 
+}*/
+
+
+a[title="Scroll to top"] {
+    /* Set background to the Rose accent color */
+    background-color: #09090B !important; 
+    border-color: #09090B !important;
+    
+    /* NEW: Force 100% opacity to remove the pixelated effect */
+    opacity: 1 !important; 
+    
+    /* Ensure the icon color inside is white */
+    color: var(--color-neutral-900) !important; 
+}
+
+/* Ensure the hover state also maintains 100% opacity and the right color */
+a[title="Scroll to top"]:hover,
+a[title="Scroll to top"]:focus {
+    background-color: #09090B  !important;
+    opacity: 1 !important; 
+    color : rgb(var(--color-primary-500)) !important;
+    border-color: #09090B !important;
 }
 
 
