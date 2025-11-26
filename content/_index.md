@@ -298,16 +298,16 @@ GAMEPLAY
 
 <div class="custom-gallery">
 	<div class="gallery-item">
-	  <img src="Kinesis/1.png" alt="Monastr key art" class="w-full h-auto object-cover">
+	  <img src="Kinesis/1.png" alt="Kinesis key art" class="w-full h-auto object-cover">
 	</div>
 	<div class="gallery-item">
-	  <img src="Kinesis/2.png" alt="Monastr screenshot 1" class="w-full h-auto object-cover">
+	  <img src="Kinesis/2.png" alt="Kinesis screenshot 1" class="w-full h-auto object-cover">
 	</div>
 	<div class="gallery-item">
-	  <img src="Kinesis/3.png" alt="Monastr screenshot 2" class="w-full h-auto object-cover">
+	  <img src="Kinesis/3.png" alt="Kinesis screenshot 2" class="w-full h-auto object-cover">
 	</div>
 	<div class="gallery-item">
-	  <img src="Kinesis/4.png" alt="Monastr screenshot 3" class="w-full h-auto object-cover">
+	  <img src="Kinesis/4.png" alt="Kinesis screenshot 3" class="w-full h-auto object-cover">
 	</div>
 </div>
 
