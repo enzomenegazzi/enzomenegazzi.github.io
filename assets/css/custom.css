@@ -132,10 +132,18 @@ a[role="button"]:focus {
 /* custom gallery */
 .custom-gallery {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 6px;
     margin-top: 1rem !important; 
     margin-bottom: 3.5rem !important; 
+}
+
+/* 📱 Media Query for Mobile/Small Screens */
+@media (max-width: 600px) {
+    .custom-gallery {
+        /* On screens 600px and smaller, force it to 1 column. */
+        grid-template-columns: 1fr; 
+    }
 }
 
 .gallery-item img {
