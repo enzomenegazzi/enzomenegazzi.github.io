@@ -179,3 +179,9 @@ img.rounded-full {
 .project-description {
     margin-top: -1rem !important; 
 }
+
+.main-content .flex-wrap {
+    /* Set the color to white. Since the icon uses currentColor, 
+       this forces the icon to be white. */
+    color: #ffffff !important;
+}
