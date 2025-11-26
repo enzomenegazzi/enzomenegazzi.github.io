@@ -75,3 +75,104 @@ a[title="Scroll to top"] {
 .header a[aria-current="page"] {
     color: #f3f4f6 !important;
 }
+
+/* default button colors */
+a[role="button"] {
+    background-color: rgb(255, 255, 255) !important; 
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-size: 0.9rem !important;
+    padding: 0.15rem 0.5rem !important;
+}
+
+/* hover state colors */
+a[role="button"]:hover,
+a[role="button"]:focus {
+    color: rgb(236, 0, 63)  !important;
+}
+
+/* container for button */
+.center-button-container {
+    text-align: center !important;
+    margin-top: -2.2rem !important; 
+    margin-bottom: 2.5rem !important; 
+}
+
+/* small description container */
+.small-description {
+    text-align: left !important;
+    margin-top: 0rem !important; 
+    margin-bottom: 3rem !important; 
+    font-size: 1rem !important;
+}
+
+/* showreel container */
+.showreel {
+    margin-top: 0rem !important; 
+    margin-bottom: 0rem !important; 
+}
+
+.showreel-subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 3.5rem !important;
+}
+
+.showreel-subtitle a {
+    color: rgb(236, 0, 63);
+}
+
+/* custom gallery */
+.custom-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 6px;
+    margin-top: 1rem !important; 
+    margin-bottom: 3.5rem !important; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    object-fit: cover;
+}
+img {
+    border: 3px solid #ececec;
+    max-width: 100%;
+}
+
+/* main wrapper */
+.main-content-wrapper {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+/* remove profile pic border */
+img.rounded-full {
+    border: 0px solid #ececec; 
+}
+
+/* container for game buttons */
+.game-button-container {
+    text-align: left !important;
+    margin-top: 1.5rem !important; 
+    margin-bottom: 2rem !important; 
+}
+
+.custom-list {
+    list-style-type: disc !important;
+    list-style-position: inside;
+    padding-left: 2rem;
+    margin-top: 0.5rem !important; 
+}
+
+.project-description {
+    margin-top: -1rem !important; 
+}

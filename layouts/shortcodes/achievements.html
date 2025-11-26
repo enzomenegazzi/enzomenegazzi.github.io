@@ -1,0 +1,45 @@
+<style>
+.achievements-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem !important; 
+    margin-bottom: 2.5rem !important; 
+}
+
+.achievements-icon {
+    flex-shrink: 0;
+    width: 70px;
+    height: auto;
+}
+
+.achievements-icon img {
+    border: 0px;
+}
+
+.achievements-list ul {
+    padding-top: 9px;
+    margin: 0;
+}
+
+.achievements-list li {
+    line-height: 1;
+    margin-bottom: 10px;
+    /* Custom icon styling using a pseudo-element */
+    position: relative;
+    padding-left: 20px; 
+    font-size: 16px;
+}
+
+.achievements-list strong {
+    font-weight: bold;
+}
+</style>
+
+<div class="achievements-container">
+    <div class="achievements-icon">
+        <img src="/images/medal.png" alt="Awards Medal" /> 
+        </div>
+    <div class="achievements-list">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

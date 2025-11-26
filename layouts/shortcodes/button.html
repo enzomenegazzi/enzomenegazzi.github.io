@@ -1,0 +1,9 @@
+<a
+ class="inline-block rounded-md px-4 py-1 no-underline transition duration-300 ease-in-out"
+ {{ with .Get "href" }}href="{{ . }}"{{ end }}
+ {{ with .Get "target" }}target="{{ . }}"{{ end }}
+ {{ with .Get "download" }}download="{{ . }}"{{ end }}
+ role="button"
+>
+ {{ .Inner }}
+</a>
