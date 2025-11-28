@@ -138,10 +138,9 @@ a[role="button"]:focus {
     margin-bottom: 3.5rem !important; 
 }
 
-/* 📱 Media Query for Mobile/Small Screens */
+/* media query for mobile/small screens */
 @media (max-width: 600px) {
     .custom-gallery {
-        /* On screens 600px and smaller, force it to 1 column. */
         grid-template-columns: 1fr; 
     }
 }
@@ -194,7 +193,31 @@ img.rounded-full {
 }
 
 .main-content .flex-wrap {
-    /* Set the color to white. Since the icon uses currentColor, 
-       this forces the icon to be white. */
     color: #ffffff !important;
+}
+
+.projects-list th, 
+.projects-list td {
+    border: 1px solid #f0f0f0;
+    padding: 4px;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+}
+
+/* table titles */
+.projects-list th {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* table values */
+.projects-list td {
+    font-size: 16px;
+    padding-right: 2rem;
+}
+
+.projects-list a {
+    text-decoration: underline;
+    text-decoration-color: rgb(236, 0, 63) !important;
 }
