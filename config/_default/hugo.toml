@@ -25,6 +25,8 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
+  [services.googleAnalytics]
+    id = 'G-TVF9R2YD6D'
 
 [params]
   [params.color]
