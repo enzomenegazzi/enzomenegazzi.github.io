@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.96.0
+      DART_SASS_VERSION: 1.93.2
       GO_VERSION: 1.25.3
       HUGO_VERSION: 0.152.2
       NODE_VERSION: 22.20.0
@@ -46,7 +46,7 @@ jobs:
           mkdir -p "${HOME}/.local"
       - name: Install Dart Sass
         run: |
-          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/1.93.2/dart-sass-1.93.2-linux-x64.tar.gz"
           tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
           rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
           echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
