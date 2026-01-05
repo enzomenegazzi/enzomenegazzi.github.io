@@ -11,7 +11,7 @@ params:
 <div class="main-content-wrapper">
 
 <div class="center-button-container" style="text-align: center;">
-{{< button href="mailto:elevendusks@gmail.com" target="_blank" >}}
+{{< button href="mailto:contact@elevendusks.com" target="_blank" >}}
 CONTACT ME
 {{< /button >}}
 </div>
