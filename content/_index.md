@@ -33,12 +33,6 @@ I am a game developer with a professional focus on game design.
 
 [comment]: <> (SPACENAP)
 
-{{< button href="https://youtu.be/VMxISHhsAVg" target="_blank" >}}
-TRAILER
-{{< /button >}}
-</div>
-
-<div class="custom-gallery">
 <h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(var(--color-primary));">Spacenap</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
@@ -55,6 +49,12 @@ TRAILER
 {{< button href="https://store.steampowered.com/app/3920420" target="_blank" >}}
 STEAM PAGE
 {{< /button >}}
+{{< button href="https://youtu.be/VMxISHhsAVg" target="_blank" >}}
+TRAILER
+{{< /button >}}
+</div>
+
+<div class="custom-gallery">
 	<div class="gallery-item">
 	  <img src="Spacenap/1.png" alt="Spacenap key art" class="w-full h-auto object-cover">
 	</div>
