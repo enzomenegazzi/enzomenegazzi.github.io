@@ -33,7 +33,7 @@ I am a game developer with a professional focus on game design.
 
 [comment]: <> (SPACENAP)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Spacenap</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Spacenap</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -71,7 +71,7 @@ TRAILER
 
 [comment]: <> (NELUMBRA)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Nelumbra</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Nelumbra</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -109,7 +109,7 @@ TRAILER
 
 [comment]: <> (MONASTR)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Monastr</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Monastr</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -147,7 +147,7 @@ TRAILER
 
 [comment]: <> (HYPER SCAPE)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Hyper Scape</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Hyper Scape</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -180,7 +180,7 @@ GAMEPLAY
 
 [comment]: <> (R6 SIEGE: OUTBREAK)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Rainbow Six Siege: Outbreak</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Rainbow Six Siege: Outbreak</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -213,7 +213,7 @@ GAMEPLAY
 
 [comment]: <> (PROJECT Q)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Project Q</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Project Q</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -236,7 +236,7 @@ GAMEPLAY
 
 [comment]: <> (BATTLECORE ARENA)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">BattleCore Arena</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">BattleCore Arena</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
@@ -269,7 +269,7 @@ GAMEPLAY
 
 [comment]: <> (KINESIS)
 
-<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(236, 0, 63);">Kinesis</h1>
+<h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(0, 127, 238);">Kinesis</h1>
 
 <h1 style="font-size: .9em; color: #ffffff;">
 	</br>
