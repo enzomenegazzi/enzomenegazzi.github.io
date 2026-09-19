@@ -69,6 +69,14 @@ TRAILER
 	</div>
 </div>
 
+{{< workdetails >}}
+* Game design des mécaniques de collection d'étoiles
+* Intégration Unreal Engine des 8 galaxies
+* Système de progression et constellations
+* Intégration Steam (achievements, cloud saves...)
+* Debug et optimisation avant release
+{{< /workdetails >}}
+
 [comment]: <> (NELUMBRA)
 
 <h1 style="font-size: 1.8em; color: #f0f0f0; font-weight: bold; text-decoration: underline; text-decoration-color: rgb(var(--color-primary));">Nelumbra</h1>

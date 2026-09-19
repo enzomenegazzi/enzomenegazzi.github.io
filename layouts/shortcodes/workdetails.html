@@ -1,0 +1,64 @@
+<style>
+.workdetails {
+    margin-top: 1.5rem !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.workdetails summary {
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #f0f0f0;
+    list-style: none;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(236, 0, 63, 0.4);
+    transition: color 0.2s ease;
+}
+
+.workdetails summary::-webkit-details-marker {
+    display: none;
+}
+
+.workdetails summary::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: rgb(236, 0, 63);
+    transition: transform 0.2s ease;
+}
+
+.workdetails[open] summary::before {
+    transform: rotate(90deg);
+}
+
+.workdetails summary:hover {
+    color: rgb(236, 0, 63);
+}
+
+.workdetails-content {
+    padding-top: 0.8rem;
+}
+
+.workdetails-content ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.workdetails-content li {
+    color: #ffffff;
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 0.4rem;
+}
+
+.workdetails-content li::marker {
+    color: rgb(236, 0, 63);
+}
+</style>
+
+<details class="workdetails">
+    <summary>{{ with .Get 0 }}{{ . }}{{ else }}Work Details{{ end }}</summary>
+    <div class="workdetails-content">
+        {{ .Inner | markdownify }}
+    </div>
+</details>
