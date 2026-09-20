@@ -28,7 +28,7 @@ I am a game developer with a professional focus on game design.
 <script src="https://player.vimeo.com/api/player.js"></script>
 
 <div class="showreel-subtitle">
-	Music: Nelumbra OST - Threshold by <a href="https://www.michaelboga.com/" target="_blank">Michael Boga</a>
+	Music: Nelumbra OST - Threshold by Michael Boga
 </div>
 
 [comment]: <> (SPACENAP)

@@ -94,7 +94,8 @@ a[role="button"] {
 /* hover state colors */
 a[role="button"]:hover,
 a[role="button"]:focus {
-    color: rgb(var(--color-primary))  !important;
+    background-color: rgb(var(--color-primary)) !important;
+    color: #ffffff !important;
 }
 
 /* container for button */
