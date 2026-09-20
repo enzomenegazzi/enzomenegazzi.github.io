@@ -115,6 +115,6 @@ weight: 20
 	  </tr>
 	</table>
 </br>
-	<p style="font-size: 16px;"><i>Last update: 2026/08/18</i></p>
+	<p style="font-size: 16px;"><i>Updated: 2026/08/18</i></p>
 </div>
 
