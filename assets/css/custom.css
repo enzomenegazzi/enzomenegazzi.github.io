@@ -221,3 +221,29 @@ img.rounded-full {
     text-decoration: underline;
     text-decoration-color: rgb(var(--color-primary)) !important;
 }
+
+.game-title {
+    color: #f0f0f0;
+}
+
+.game-title-border-left {
+    display: block;
+    border-left: 4px solid rgb(var(--color-primary));
+    padding-left: 0.75rem;
+}
+
+.banner-wrapper {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.banner-image {
+    max-width: 100%;
+    height: auto;
+    border: none !important;
+}
+
+.poem-quote {
+    margin: 4rem 0 2rem 0;
+    font-size: 1em;
+}

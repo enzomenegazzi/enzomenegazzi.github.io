@@ -11,7 +11,6 @@
     color: #f0f0f0;
     list-style: none;
     padding: 0.4rem 0;
-    border-bottom: 1px solid rgba(236, 0, 63, 0.4);
     transition: color 0.2s ease;
 }
 
@@ -23,7 +22,7 @@
     content: "▸";
     display: inline-block;
     margin-right: 0.5rem;
-    color: rgb(236, 0, 63);
+    color: rgb(var(--color-primary));
     transition: transform 0.2s ease;
 }
 
@@ -32,7 +31,7 @@
 }
 
 .workdetails summary:hover {
-    color: rgb(236, 0, 63);
+    color: rgb(var(--color-primary));
 }
 
 .workdetails-content {
@@ -52,12 +51,23 @@
 }
 
 .workdetails-content li::marker {
-    color: rgb(236, 0, 63);
+    color: rgb(var(--color-primary));
+}
+
+.workdetails-content strong {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95em;
+}
+
+.workdetails-content ul {
+    list-style-type: disc !important;
 }
 </style>
 
 <details class="workdetails">
-    <summary>{{ with .Get 0 }}{{ . }}{{ else }}Work Details{{ end }}</summary>
+    <summary>{{ with .Get 0 }}{{ . }}{{ else }}WORK DETAILS{{ end }}</summary>
     <div class="workdetails-content">
         {{ .Inner | markdownify }}
     </div>

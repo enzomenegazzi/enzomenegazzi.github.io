@@ -15,6 +15,12 @@ weight: 20
 	    <th>Description</th>
 	  </tr>
 	  <tr>
+	    <td>2026</td>
+	    <td>G. (NDA)</td>
+	    <td>Entire vertical slice of a solo PVE auto battler game (freelance)</td>
+	  </tr>
+	  <tr>
+	  <tr>
 	    <td>2025</td>
 	    <td><a href="https://store.steampowered.com/app/3920420/Spacenap/" target="_blank">Spacenap</a></td>
 	    <td>Chill clicker-idle desktop companion game shipped on Steam</td>
@@ -31,6 +37,11 @@ weight: 20
 	    </br>38K+ downloads, 3.9/5 over 212 ratings</td>
 	  </tr>
 	  <tr>
+	    <td>2023-2024</td>
+	    <td><a href="https://youtu.be/6KiQZkmvjbI" target="_blank">BattleCore Arena</a></td>
+	    <td>Ubisoft game</td>
+	  </tr>
+	  <tr>
 	    <td>2023</td>
 	    <td>Stella</td>
 	    <td>Prototype of a 2D side scrolling action adventure game</td>
@@ -39,6 +50,11 @@ weight: 20
 	    <td>2023</td>
 	    <td>Inku</td>
 	    <td>Prototype of a 2D drawing PVP mobile game</td>
+	  </tr>
+	  <tr>
+	    <td>2023</td>
+	    <td><a href="https://youtu.be/IRNOoOYVn80" target="_blank">Assassin's Creed Mirage</a></td>
+	    <td>Ubisoft game</td>
 	  </tr>
 	  <tr>
 	    <td>2023</td>
@@ -53,7 +69,22 @@ weight: 20
 	  <tr>
 	    <td>2023</td>
 	    <td><a href="https://mnzo.itch.io/arcadia" target="_blank">Arcadia</a></td>
-	    <td>Solo Video Games Lab: Game Jam 2021 entry</td>
+	    <td>Video Games Lab: Game Jam 2021 solo entry</td>
+	  </tr>
+	  <tr>
+	    <td>2021-2023</td>
+	    <td>Project Q</td>
+	    <td>Ubisoft game (canceled)</td>
+	  </tr>
+	  <tr>
+	    <td>2018-2021</td>
+	    <td><a href="https://youtu.be/BYcjk4skm2M" target="_blank">Hyper Scape</a></td>
+	    <td>Ubisoft game</td>
+	  </tr>
+	  <tr>
+	    <td>2017-2018</td>
+	    <td><a href="https://youtu.be/LAGk9wEvf9c" target="_blank">Rainbow Six: Siege (Outbreak event)</a></td>
+	    <td>Ubisoft game</td>
 	  </tr>
 	  <tr>
 	    <td>2017</td>
@@ -68,7 +99,7 @@ weight: 20
 	  <tr>
 	    <td>2015</td>
 	    <td><a href="https://onceuponateam.itch.io/kinesis" target="_blank">Kinesis</a></td>
-	    <td>Last year student project at ICAN Design
+	    <td>Student project at ICAN Design
 	    </br>Hits Playtime 2015 grand prize</td>
 	  </tr>
 	  <tr>
@@ -84,6 +115,6 @@ weight: 20
 	  </tr>
 	</table>
 </br>
-	<p style="font-size: 14px;"><i>Last update: 28/11/2025</i></p>
+	<p style="font-size: 16px;"><i>Last update: 2026/08/18</i></p>
 </div>
 
